@@ -1,0 +1,14 @@
+train: ../IRTBASM_DiamondHacks_2025/DATASET/train  # Path to training images
+val: ../IRTBASM_DiamondHacks_2025/DATASET/valid  # Path to validation images
+
+nc: 9  # Number of classes (e.g., water bottle, backpack)
+names:
+  0: apple
+  1: bag
+  2: phone
+  3: pencel
+  4: plastic_bottle
+  5: shampoo_bottle
+  6: fork_spoon
+  7: pillow
+  8: shirt
