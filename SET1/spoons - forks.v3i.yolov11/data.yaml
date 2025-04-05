@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['forks', 'spoons']
+
+roboflow:
+  workspace: tesis-fuuyl
+  project: spoons-forks
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tesis-fuuyl/spoons-forks/dataset/3
