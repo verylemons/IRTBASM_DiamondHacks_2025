@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['adhesion_marg', 'adhesion_unacc', 'dent_marg', 'dent_unacc', 'pob_marg', 'pob_unacc', 'scuff_marg', 'scuff_unacc', 'tear_marg', 'tear_unacc']
+
+roboflow:
+  workspace: escv-internship
+  project: shampoo-bottles
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/escv-internship/shampoo-bottles/dataset/2
